@@ -111,7 +111,7 @@ def main():
     updater.idle()
 
 
-WELCOME_MESSAGE = f"Welcome to Dragon Laundry Bot ({os.environ.get('VERSION','dev')})!\n\nUse the following commands to use this bot:\n/select: {SELECT_COMMAND_DESCRIPTION}\n/status: {STATUS_COMMAND_DESCRIPTION}\n\nThank you for using the bot!\nCredit to: @Kaijudo"
+WELCOME_MESSAGE = f"Welcome to Dragon Laundry Bot ({os.environ.get('VERSION','dev')})!\n\nUse the following commands to use this bot:\n/select: {SELECT_COMMAND_DESCRIPTION}\n/status: {STATUS_COMMAND_DESCRIPTION}\n\nThank you for using the bot!\nCredit to: @Kaijudo @Kokerinks @jloh02 @davidgohzk"
 
 START_INLINE_KEYBOARD = InlineKeyboardMarkup(
     [[InlineKeyboardButton("Exit", callback_data="exit")]]
